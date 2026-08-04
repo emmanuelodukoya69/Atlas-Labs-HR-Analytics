@@ -2,7 +2,7 @@
 
 **A Power BI dashboard investigating why employees leave Atlas Labs, and what HR can actually do about it.**
 
-![image alt]([images/Overview.PNG](https://github.com/emmanuelodukoya69/Atlas-Labs-HR-Analytics/blob/59de43a0b2fc336f6c8be2fdf1c13262f868a631/Overview.PNG))
+![Alt text]([images/Overview.PNG](https://github.com/emmanuelodukoya69/Atlas-Labs-HR-Analytics/blob/59de43a0b2fc336f6c8be2fdf1c13262f868a631/Overview.PNG))
 
 ---
 

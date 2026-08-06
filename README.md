@@ -46,12 +46,12 @@ The dashboard is built across four pages, each answering a different layer of th
 ### Data Cleaning (Power Query)
 Raw employee data was cleaned and transformed in Power Query — adding calculated columns like age bins, fixing data types, and shaping tables before they hit the model.
 
-![Power Query Interface](images/Power_Query_Interface.PNG)
+![Image Alt]( https://github.com/emmanuelodukoya69/Atlas-Labs-HR-Analytics/blob/main/Power%20Query%20Interface.PNG?raw=true)
 
 ### Data Model
 A star schema connects the core `FactPerformanceRating` table to `DimEmployee`, `DimDate`, `DimEducationLevel`, `DimRatingLevel`, and `DimSatisfiedLevel` — keeping the model clean and every measure fast to calculate.
 
-![Data Model](images/Modelling.PNG)
+![Image Alt]( https://github.com/emmanuelodukoya69/Atlas-Labs-HR-Analytics/blob/main/Modelling.PNG?raw=true)
 
 ---
 
@@ -72,14 +72,14 @@ Employees who identify as:
 9. "Mixed or Multiple Ethnic Groups" have one of the lowest average salaries.
 
 ### Overview Page — The Headline Numbers
-![Overview Page](images/Overview.PNG)
+![Image Alt](https://github.com/emmanuelodukoya69/Atlas-Labs-HR-Analytics/blob/main/Overview.PNG?raw=true)
 
 - 1,470 total employees, of whom 1,233 are still active and 237 have left → 16.1% overall attrition rate.
 - Hiring has been steady, running 106–155 new hires per year with no major slowdown, so growth pressure isn't the issue here.
 - Sales - Sales Representative (39.8%) and HR - Recruiter (37.5%) have by far the worst attrition of any role, while most Technology and management roles sit in single digits to low-20s.
 
 ### Demographics Page — Who's Affected
-![Demographics Page](images/Demograhics.PNG)
+![Image Alt]( https://github.com/emmanuelodukoya69/Atlas-Labs-HR-Analytics/blob/main/Demograhics.PNG?raw=true)
 
 - Attrition is fairly even across gender (Female 15.4%, Male 17.5%, Non-Binary 15.3%), gender is not a meaningful driver.
 - Marital status tells a different story: Single employees leave at 23.3%, nearly double Married (12.7%) and more than double Divorced (10.1%).
@@ -88,7 +88,7 @@ Employees who identify as:
 **What this means:** life-stage matters more than identity. Single employees — often earlier-career, fewer local ties — are the flight-risk group, which lines up with the tenure pattern below.
 
 ### Attrition Page — The Real Drivers
-![Attrition Page](images/Attrition.PNG)
+![Image Alt]( https://github.com/emmanuelodukoya69/Atlas-Labs-HR-Analytics/blob/main/Attrition.PNG?raw=true)
 
 This page is where the actionable story is:
 
@@ -102,7 +102,7 @@ This page is where the actionable story is:
 The standout: Overtime is the biggest single factor you've measured — employees working overtime leave at roughly 3x the rate of those who don't. Combined with frequent travel, these two "workload/burnout" factors dwarf every demographic factor on the Demographics page.
 
 ### Performance Tracker Page — An Unexpected Finding
-![Performance Tracker Page](images/Performance_Tracker.PNG)
+![Image Alt]( https://github.com/emmanuelodukoya69/Atlas-Labs-HR-Analytics/blob/main/Performance%20Tracker.PNG?raw=true)
 
 I checked whether satisfaction scores actually explain who leaves, and they mostly don't:
 - Environment/Job/WorkLife/Relationship satisfaction scores are nearly identical between employees who stayed and those who left (all within ~0.1–0.2 points on a 5-point scale).
